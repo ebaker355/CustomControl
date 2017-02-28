@@ -1,8 +1,6 @@
 //
 //  CustomControl.h
-//  CustomControl
 //
-//  Created by Eric Baker on 28/Feb/2017.
 //  Copyright © 2017 Samples. All rights reserved.
 //
 
