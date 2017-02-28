@@ -10,17 +10,7 @@ import UIKit
 @IBDesignable
 open class RoundButton: UIView {
 
-    @IBInspectable public var color: UIColor
-
-    public override init(frame: CGRect) {
-        color = .blue
-        super.init(frame: frame)
-    }
-
-    public required init?(coder aDecoder: NSCoder) {
-        color = .blue
-        super.init(coder: aDecoder)
-    }
+    @IBInspectable open var color: UIColor = .blue
 
     open override class var requiresConstraintBasedLayout: Bool {
         get {
