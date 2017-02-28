@@ -20,8 +20,7 @@ open class RoundButton: UIView {
 
     open override func draw(_ rect: CGRect) {
         let size = min(rect.size.width, rect.size.height)
-        let center = CGPoint(x: rect.size.width / 2.0, y: rect.size.height / 2.0)
-        let frame = CGRect(origin: center, size: CGSize(width: size, height: size))
+        let frame = CGRect(origin: rect.origin, size: CGSize(width: size, height: size))
 
         let path = UIBezierPath(ovalIn: frame)
         self.color.setFill()
